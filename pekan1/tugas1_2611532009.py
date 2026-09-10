@@ -1,0 +1,11 @@
+# Buat Pohon Natal
+print("               *")
+print("              ***")
+print("             *****")
+print("            *******")
+print("           *00****00")
+print("          ***********")
+print("         **00*****00**")
+print("        ***************")
+print("               **")
+print("               **")
