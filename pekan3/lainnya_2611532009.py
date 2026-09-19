@@ -11,7 +11,7 @@ print("======================================")
 input_data_2009 = input("Masukkan beberapa angka, pisahkan dengan koma: ")
 
 # Mengubah input menjadi list integer
-data_2009 = [int(angka.strip() for angka in input_data_2009.split(','))]
+data_2009 = [int(angka.strip()) for angka in input_data_2009.split(',')]
 
 nilai_dicari_2009 = int(input("Masukkan angka yang ingin dicari: "))
 
@@ -37,6 +37,7 @@ object2_2009 = object1_2009
 
 # objek3 memiliki isi sama, tetapi merupakan objek baru
 object3_2009 = data_2009.copy()
+
 print("object1 =",object1_2009)
 print("object2 =",object2_2009)
 print("object3 =",object3_2009)
