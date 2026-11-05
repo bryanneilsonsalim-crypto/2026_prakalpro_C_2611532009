@@ -2,6 +2,6 @@
 count = 5
 
 while count >= 1:
-    print(count)
+    print(count, end=" ")
     count -= 1
 print("Go!")
